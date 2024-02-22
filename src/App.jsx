@@ -1,10 +1,13 @@
-import './App.css'
-import Todo from './components/Todo'
+import './App.css';
+import FetchEmoji from './components/FetchEmoji';
 
 function App() {
+
   return (
-    <Todo />
-  )
+  <div>
+    <FetchEmoji />
+  </div>
+  );
 }
 
-export default App
+export default App;
