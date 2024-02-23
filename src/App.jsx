@@ -1,11 +1,12 @@
 import './App.css';
-import FetchEmoji from './components/FetchEmoji';
+import Button from './components/Button';
 
 function App() {
 
   return (
   <div>
-    <FetchEmoji />
+    <h1>Learning Testing with Vitest</h1>
+    <Button label="Clickity Click!"/>
   </div>
   );
 }
